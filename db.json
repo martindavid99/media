@@ -1,10 +1,22 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "Myra"
-        }
-    ],
-    "albums": [],
-    "photos": []
+  "users": [
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Daryl Adams",
+      "id": 2
+    },
+    {
+      "name": "Jonathan Tillman",
+      "id": 3
+    },
+    {
+      "name": "Heidi Mosciski",
+      "id": 4
+    }
+  ],
+  "albums": [],
+  "photos": []
 }
