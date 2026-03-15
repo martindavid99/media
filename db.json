@@ -5,10 +5,6 @@
       "name": "Myra"
     },
     {
-      "name": "Daryl Adams",
-      "id": 2
-    },
-    {
       "name": "Jonathan Tillman",
       "id": 3
     },
@@ -55,6 +51,10 @@
     {
       "name": "Javier Armstrong",
       "id": 14
+    },
+    {
+      "name": "Al Metz",
+      "id": 15
     }
   ],
   "albums": [],
