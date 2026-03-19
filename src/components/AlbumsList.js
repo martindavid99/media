@@ -2,6 +2,7 @@ import { useFetchAlbumsQuery, useAddAlbumMutation } from "../store/apis/albumsAp
 import Skeleton from './Skeleton';
 import ExpandablePanel from './ExpandablePanel';
 import Buttton from './Button';
+import AlbumsListItem from "./AlbumsListItem";
 
 function AlbumsList({ user }) {
     const { data, error, isLoading } = useFetchAlbumsQuery(user);
@@ -19,10 +20,8 @@ function AlbumsList({ user }) {
     } else {
         content = data.map(album => {
             const header = <div>{album.title}</div>;
+            return <AlbumsListItem key={album.id} album={album} />;
 
-            return <ExpandablePanel key={album.id} header={header}>
-                List of photos in the album
-            </ExpandablePanel>;
         });
     }
 
