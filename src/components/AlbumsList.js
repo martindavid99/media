@@ -27,17 +27,19 @@ function AlbumsList({ user }) {
     }
 
 
-    return <div>
+    return (
         <div>
-            Albums for {user.name}
-            <Buttton onClick={handleAddAlbum}>
-                + Add Album
-            </Buttton>
+            <div className="m-2 flex flex-row items-center justify-between">
+                <h3 className="text-lg font-bold">Albums for {user.name}</h3>
+                <Buttton loading={results.isLoading} onClick={handleAddAlbum}>
+                    + Add Album
+                </Buttton>
+            </div>
+            <div>
+                {content}
+            </div>
         </div>
-        <div>
-            {content}
-        </div>
-    </div>;
+    );
 }
 
 export default AlbumsList;
