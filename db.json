@@ -1,10 +1,6 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Myra"
-    },
-    {
       "name": "Rochelle Leuschke",
       "id": 7
     },
@@ -45,32 +41,6 @@
       "id": 16
     }
   ],
-  "albums": [
-    {
-      "id": 10,
-      "title": "Hiking Trip",
-      "userId": 1
-    },
-    {
-      "userId": 1,
-      "title": "Unbranded Rubber Fish",
-      "id": 11
-    },
-    {
-      "userId": 10,
-      "title": "Incredible Steel Soap",
-      "id": 12
-    },
-    {
-      "userId": 1,
-      "title": "Awesome Concrete Chips",
-      "id": 13
-    },
-    {
-      "userId": 1,
-      "title": "Gorgeous Granite Mouse",
-      "id": 14
-    }
-  ],
+  "albums": [],
   "photos": []
 }
