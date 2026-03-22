@@ -41,6 +41,12 @@
       "id": 16
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "userId": 7,
+      "title": "Handmade Soft Pizza",
+      "id": 1
+    }
+  ],
   "photos": []
 }
