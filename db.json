@@ -46,7 +46,28 @@
       "userId": 7,
       "title": "Handmade Soft Pizza",
       "id": 1
+    },
+    {
+      "userId": 7,
+      "title": "Small Concrete Tuna",
+      "id": 2
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=50287",
+      "id": 1
+    },
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=96862",
+      "id": 2
+    },
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=8150",
+      "id": 3
+    }
+  ]
 }
